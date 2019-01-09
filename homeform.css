@@ -1,0 +1,91 @@
+/* Below line is write to use Google font online */
+
+div#main{
+width:830px;
+height:650px;
+margin:0 auto;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+}
+.container{
+padding-left:16px;
+background-color:azure;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: navy;
+font-size: 18px;
+height:1000px;
+width:100%;
+}
+header, footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.title{
+  padding:0; 
+  font-weight: bold; 
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 25px;
+}
+
+#main h1{
+margin-top:40px
+}
+hr{
+margin-top:-5px
+}
+label{
+float:left;
+font-size:16px
+}
+.title{
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+    height: 550px;
+    width:100%;
+    padding-left:16px;
+/*background-color:azure;*/
+    animation-name: zerowaste;
+    animation-duration: 10s;
+  animation-timing-function: ease-in-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+
+width:100%;
+}
+@keyframes zerowaste {
+    from { background-image:  url("images/bg1.jpg");}
+    to  {background-image:  url("images/bg2.jpg");}
+}
+.titleText{
+font-family:cursive;
+text-align: center;
+color: navy;
+font-weight: bolder;
+font-size: 18px;
+padding-top: 300px;
+}
+section{
+    height:30%;
+    width:50%;
+    float :left;
+    border:2px,solid;
+    padding:10px;
+    color: navy;
+}
+aside {
+    height:20%;
+    width:100%;
+    float :left;
+    border:2px,solid;
+    padding-bottom: 20px;
+    padding-left:10px;
+    color: navy;
+}
